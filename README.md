@@ -5,3 +5,6 @@ Amazon Warehouse in Bangalore was expecting a freight shipment at 10 am on a Mon
 
 ![Warehouse route map](https://github.com/dineshkumaryelluri/Bits/blob/master/AssignmentGraph.png) 
 
+### Algorithm for finding shortest path:
+To find the fastest route between to points in a map(graph provided), we essentially have to find the shortest weighed path between those 2 points. This can be acheived by BFS traversal of graph choosing the edge with lowest weight.
+We can use `Dijkstra’s Algorithm` to find the shortest path in a weighed graph
